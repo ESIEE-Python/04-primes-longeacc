@@ -4,30 +4,13 @@ from math import sqrt
 
 
 def isprime(p):
-    if p < 2:
-        print("Ce n'est pas un nombre premier")
-        return False
-
-    for n in range(2, p):
-        if p % n == 0:
-            print("Ce n'est pas un nombre premier")
-            return False
-
-    print("C'est un nombre premier")
-    return True
+    pass
 
 #### Fonction principale
 
 
 def main():
-    try:
-        p = int(input("Choisis un nombre: "))
-        if isprime(p):
-            print(f"{p} est un nombre premier.")
-        else:
-            print(f"{p} n'est pas un nombre premier.")
-    except ValueError:
-        print("Ce n'est pas un nombre valide.")
+    pass
 
 
     for n in range(100):
